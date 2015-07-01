@@ -654,9 +654,9 @@ input[type="submit"].search-submit {
 	width: 100%;
 	min-height: 73px;
 /* Zoe: background header*/
-	background: #fff;
+	background: #ff0099;
 /* Zoe: Ligne en bas du header*/
-	border-bottom: 1px solid #FF0099;
+	border-bottom: 4px solid #24d3fd;
 	color: #000;
 }
 
@@ -681,7 +681,7 @@ input[type="submit"].search-submit {
 	max-width: 100%;
 	margin: 0 auto;
 /* Zoe: Couleur titre du blog normal */
-	color: #FF0099;
+	color: #ffffff;
 	font-size: 1.375em;
 	line-height: 1.09090909;
 }
@@ -695,7 +695,7 @@ input[type="submit"].search-submit {
 .site-title a:hover,
 .site-title a:focus,
 .site-title a:active {
-	color: #FF0099;
+	color: #24d3fd;
 }
 
 .site-description {
@@ -705,7 +705,7 @@ input[type="submit"].search-submit {
 	padding-right: 12px;
 	margin: 0 0 -.5857em;
 /* Zoe: Couleur sous-titre du blog */
-	color: #ff0099;
+	color: #ffffff;
 	font-family: Merriweather, serif;
 	font-size: .875em;
 	line-height: 2.3;
@@ -1376,7 +1376,7 @@ a.no-border {
 	background: #FF0099;
 /* ZOE : Bordure a gauche de l'icon menu */
 	border-left: 1px solid #FF0099;
-	color: #FF0099;
+	color: #FFFFFF;
 	text-align: center;
 }
 
@@ -1393,7 +1393,7 @@ a.no-border {
 .sidebar-toggle:hover,
 .sidebar-toggle:focus,
 .sidebar-toggle:active {
-	background: #FF0099;
+	background: #24d3fd;
 	color: #FF0099;
 }
 
@@ -1401,12 +1401,13 @@ a.no-border {
 .sidebar-toggle.toggle-on,
 .sidebar-toggle.toggle-on:focus {
 	background: #FF0099;
-	color: #FF0099;
+	color: #FFFFFF;
 }
 
 /* ZOE : icon menu cliqué hover state*/
 .sidebar-toggle.toggle-on:hover,
 .sidebar-toggle.toggle-on:active {
+	background: #24d3fd;
 	color: #FF0099;
 }
 
@@ -1827,7 +1828,7 @@ body.single .entry-meta {
 
 /* ZOE: article list overlay color on hover */
 .hentry.has-post-thumbnail .entry-link {
-	background: #FF0099;
+	background: #24d3fd;
 }
 
 .hentry:not(.has-post-thumbnail):hover .entry-link {
@@ -3288,7 +3289,7 @@ hr,
 
 /* ZOE : Progress Bar color */
 .pace .pace-progress {
-	background: #FF0099;
+	background: #24d3fd;
 	position: fixed;
 	right: 100%;
 	z-index: 99999;
